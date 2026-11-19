@@ -13,6 +13,7 @@ import { GallerySection } from "@/components/sections/GallerySection";
 import { LocationSection } from "@/components/sections/LocationSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { ForestAdventureAnimation } from "@/components/adventure-animation/ForestAdventureAnimation";
+import { Analytics } from '@vercel/analytics/next';
 
 export default function HomePage() {
   return (
@@ -33,6 +34,7 @@ export default function HomePage() {
         <LocationSection />
         <FAQSection />
         <ContactSection />
+        <Analytics />
       </div>
     </div>
   );
